@@ -45,6 +45,7 @@ section .section-title{
     color: white;
 }
 
+
 .text-orange{
     color: var(--primary-color);
 }

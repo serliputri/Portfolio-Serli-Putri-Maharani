@@ -282,8 +282,13 @@
             <h1 class="text-orange fw-bold">Kontak</h1>
             <p class="text-secondary mb-3">
               Mari berkomunikasi lebih dekat dengan aku dengan 
-              cara menghubungi sosial media dibawah ini.
+              cara menghubungi sosial media dibawah ini 
+              atau bisa juga mengisi form disamping!
             </p>
+            <div class="d-flex align-items-center gap-2 mb-3">
+              <i class="bx bx-map-pin text-orange fs-5"></i>
+              <a href="https://maps.app.goo.gl/AVARZWKfT5n1SjxeA">Jl. Werkudoro 52A Polehan, Malang, Jawa Timur</a>
+            </div>
             <div class="d-flex align-items-center gap-2 mb-3">
               <i class="bx bxl-instagram text-orange fs-5"></i>
               <a href="https://www.instagram.com/serliippp/">@serliippp</a>
@@ -294,17 +299,33 @@
                 <a href="https://api.whatsapp.com/send?phone=6281914887630">081914887630</a>
               </div>
             </div>
-            <div class="d-flex align-items-center gap-2 mb-3">
-              <i class="bx bx-envelope text-orange fs-5"></i>
-              <div class="mb-0">
-                <a href="mailto:seerliipppp@gmail.com">seerliipppp@gmail.com</a>
-              </div>
-            </div>
           </div>
           <div class="col-md-5">
-            <h1 class="text-orange fw-bold">Alamat</h1>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63218.191964973186!2d112.56565854863281!3d-7.984785000000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd62814ebe11a99%3A0x54e291d44e6890e8!2sKantor%20Rangka%20Baza!5e0!3m2!1sid!2sid!4v1711436625063!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-          </div>
+            <form action="https://formspree.io/f/meqyrarp" method="post">
+              <input 
+                type="text" 
+                name="Nama" 
+                id="nama" 
+                placeholder="Nama Lengkap" 
+                class="form-control rounded-0 mb-2"/>
+              <input 
+                type="email" 
+                name="Email" 
+                id="email" 
+                placeholder="Alamat Email" 
+                class="form-control rounded-0 mb-2"/>
+              <textarea 
+                name="body" 
+                id="body" 
+                placeholder="Pesanmu" 
+                cols="30" 
+                rows="3" 
+                class="form-control rounded-0 mb-3">
+              </textarea>
+
+              <button class="btn btn-orange w-100">Kirim</button>
+            </form>
+            </div>
         </div>
       </div>
     </section>
