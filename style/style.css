@@ -112,13 +112,13 @@ body{
 }
 
 /* PORTOFOLIO */
-.portofolio-section .container {
+.portfolio-section .container {
     display: flex;
     flex-direction: column;
     align-items: baseline;
 }
   
-.portofolio-section .card {
+.portfolio-section .card {
     width: 300px;
     border: 1px solid #ccc;
     border-radius: 8px;
@@ -126,11 +126,11 @@ body{
     margin-bottom: 20px;
 }
   
-.portofolio-section .card:last-child {
+.portfolio-section .card:last-child {
     margin-right: 0;
 }
   
-.portofolio-section .card-img-top {
+.portfolio-section .card-img-top {
     width: 100%;
     height: auto;
     display: block;
